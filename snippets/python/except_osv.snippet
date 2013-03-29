@@ -1,0 +1,5 @@
+class ${1:MyException}(osv.except_osv):
+    def __init__(self, ${2}):
+        msg = _("${4}")
+        title = _("${5}")
+        super(${3:$1}, self).__init__(title, msg)
